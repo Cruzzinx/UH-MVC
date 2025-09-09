@@ -23,15 +23,17 @@ $art = new ArtView();
 
     <?php $art->find(); ?>
 
-    <table border="1">
-        <tr>
-            <th>ID</th>
-            <th>TITTLE</th>
-            <th>TYPE</th>
-            <th>YEAR</th>
-        </tr>
-        <?php $art->show() ?>
-    </table>
+    <div class="d-flex justify-content-center">
+        <table class="table table-striped w-50">
+            <tr>
+                <th>Id </th>
+                <th>Nama</th>
+                <th>Tipe</th>
+                <th>Tahun</th>
+            </tr>
+            <?php $art->show() ?>
+        </table>
+    </div>
 
 </body>
 </html>
