@@ -24,8 +24,8 @@ class ArtView extends ArtController
         foreach ($detailArt as $detail) { ?>
         <div>
         <h3><?php echo $detail['tittle']; ?></h3>
-        <p>tipenya : <?php echo $detail['type']; ?></p>
-        <p>Tahun : <?php echo $detail['year']; ?></p>
+        <p>tipenya: <?php echo $detail['type']; ?></p>
+        <p>Tahun: <?php echo $detail['year']; ?></p>
         </div>
         <?php
         }
